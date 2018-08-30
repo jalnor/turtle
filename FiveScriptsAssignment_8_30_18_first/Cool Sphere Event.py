@@ -19,7 +19,7 @@ for i in range(0,200):
     a1 = rs.AddArc( plane, 2, 45.0 )
     a2 = rs.AddArc( plane, 2, -45.0 )
     a3 = rs.AddArc(plane2, 5, 45.0)
-    a4 = rs.AddArc(plane2, 5, -45.0)
+    a4 =rs.AddArc(plane2, 5, -45.0)
     a5 = rs.AddArc(plane3, 11, 45.0)
     a6 = rs.AddArc(plane3, 11, -45.0)
     a7 = rs.AddArc(plane4, 23, 45.0)
