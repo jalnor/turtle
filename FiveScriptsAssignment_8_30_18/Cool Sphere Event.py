@@ -1,6 +1,6 @@
 import rhinoscriptsyntax as rs
 # Creates cool sphere in center of Event
-a = rs.AddSphere([20,20,20], 5)
+a = rs.AddSphere([0,0,0], 5)
 rs.ObjectColor(a,[255,0,0]) 
 # Creates planes that expand toward sphere
 plane = rs.WorldZXPlane()
